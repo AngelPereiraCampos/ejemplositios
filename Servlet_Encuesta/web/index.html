@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Envie su opinion</title>
+    </head>
+    <body>
+        <h2>Por favor envienos su opinion acerca de este sitio web</h2>
+        <form action="ServletOpinion" method="post">
+            <p>ID : <input type="text" name="id" size="15"/></p>
+            <p>Correo : <input type="text" name="correo" size="30"/></p>
+            <p>Telefono : <input type="text" name="telefono" size="30"/></p>
+              Opinion que le ha merecido este sitio web
+              <p>
+                <input type="radio" checked name="opinion" value="buena"/>Buena
+                <input type="radio" name="opinion" value="regular"/>Regular
+                <input type="radio" name="opinion" value="mala"/>Mala
+              </p>
+              Comentarios
+              <p>
+                 <textarea name="comentarios" rows="6" cols="40"></textarea>
+              </p>
+ 
+              <input type="submit" name="botonEnviar" value="Enviar">
+              <input type="reset" name="botonLimpiar" value="Limpiar"> 
+              <a href="hola.html"><input name="" type="button" value="Video"> </a>            
+        </form>
+    </body>
+</html>
+
